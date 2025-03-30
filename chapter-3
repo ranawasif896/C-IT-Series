@@ -1,0 +1,115 @@
+//to find the circumference of the circle is :: 
+
+#include<iostream>
+#define PI 3.14
+using namespace std;
+int main(){
+	int radius;
+	cout<<"Enter the radius of the circle :: ";
+	cin>>radius;
+	float C=2*PI*radius;
+	cout<<"The circumference of the circle is :: "<<C;
+	return 0;
+}
+//if you want to add or substract and other you can do this ::
+
+#include<iostream>
+#define PI 3.14
+using namespace std;
+int main(){
+	int a,b;
+	cout<<"Enter the first  number :: ";
+	cin>>a;
+	cout<<"Enter the secound number :: ";
+	cin>>b;
+	cout<<"The adition of the number is :: "<<a+b<<endl;
+	cout<<"The substraction  of the number is :: "<<a-b<<endl;
+	cout<<"The division of the number is :: "<<a/b<<endl;
+	cout<<"The modulus of the number is :: "<<a%b<<endl;
+	cout<<"The multiply  of the number is :: "<<a*b<<endl;
+		return 0;
+}
+
+//If you want to use the increment use this ::
+
+#include<iostream>
+//#define PI 3.14
+using namespace std;
+int main(){
+	int a=10;
+	a+=a;
+	cout<<"The adition of the number is :: "<<a<<endl;
+	a-=a;
+	cout<<"The substraction  of the number is :: "<<a<<endl;
+	a/=a;
+	cout<<"The division of the number is :: "<<a<<endl;
+	a%=a;
+	cout<<"The modulus of the number is :: "<<a<<endl;
+	a*=a;
+	cout<<"The multiply  of the number is :: "<<a<<endl;
+		return 0;
+}
+
+
+//3.5
+
+#include<iostream>
+//#define PI 3.14
+using namespace std;
+int main(){
+int a,b,c,d;
+a=b=c=d=0;
+a++;
+b=a;
+++c;
+d=c;
+cout<<"a = "<<a<<endl<<"b = "<<b<<endl<<" c = "<<c<<endl<<" d = "<<d;
+		return 0;
+}
+
+//3.6 
+
+#include<iostream>
+//#define PI 3.14
+using namespace std;
+int main(){
+int a,b,c,d,e;
+a=b=c=d=e=0;
+a=b++;
+c=d++;
+d=e++;
+cout<<a<<endl<<b<<endl<<c<<endl<<d<<endl<<e;
+		return 0;
+}
+
+//For Decrement  operator ::
+
+#include<iostream>
+//#define PI 3.14
+using namespace std;
+int main(){
+int a,b,c,d;
+a=b=c=d=0;
+a=--b;
+b=c--;
+c=--d;
+cout<<a<<endl<<b<<endl<<c<<endl<<d;
+		return 0;
+}
+
+
+//Explicit Function
+
+
+
+#include<iostream>
+using namespace std;
+int  main(){
+//Explicit Casting 
+	float a,b;
+	a=10.44;
+	b=5.33;
+	int c=(int)a%(int)b;
+	cout<<"Result is :: "<<c;
+	return 0;
+}
