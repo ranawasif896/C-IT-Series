@@ -1,0 +1,939 @@
+// Question No::01
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int marks;
+//     cout<<"Enter your marks ::";
+//     cin>>marks;
+//     if(marks>=40)
+//     cout<<"Congratulation!You have passed:";
+//      return 0;
+// }
+
+
+//Question No::02
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b;
+//     cout<<"Enter first number::";
+//     cin>>a;
+//     cout<<"Enter second number::";
+//     cin>>b;
+//     if(a==b)
+//     cout<<"Both numbers are equals::";
+//      return 0;
+// }
+
+//Question No::03
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b;
+//     cout<<"Enter first number::";
+//     cin>>a;
+//     cout<<"Enter second number::";
+//     cin>>b;
+//     if(a*a==b)
+//     cout<<"Second number is square of first.";
+//      return 0;
+// }
+
+//Question No::04
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     float a,b,c;
+//     cout<<"Enter first subject marks::";
+//     cin>>a;
+//     cout<<"Enter second subject marks::";
+//     cin>>b;
+//     cout<<"Enter third subject marks::";
+//     cin>>c;
+//     float avg =a+b+c/2.0;
+//     if(avg>=80)
+//     {
+//         cout<<"Your are above standard!"<<endl;
+//         cout<<"Admission granted!";
+//     }
+//     return 0;
+// }
+
+//Question No::05
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//  int a,b,c,max;
+//  cout<<"Enter first number::";
+//  cin>>a;
+//  cout<<"Enter second number::";
+//  cin>>b;
+//  cout<<"Enter third number::";
+//  cin>>c;
+//      max=a;
+//      if(b>max)
+//      max=b;
+//     if(c>max)
+//     max=c;
+//      cout<<"The maximum number is::"<<max;
+//      return 0;
+// }
+
+//Question No::6
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     if(n>0)
+//     cout<<"Your entered number is positive:";
+//     if(n<=0)
+//     cout<<"Your entered number is negative:";
+//      if(n==0)
+//      cout<<"Number is equal to zero:";
+//     return 0;
+// }
+
+//Question No::07
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//    int a,b,c,d,e,max,min;
+//    cout<<"Enter five numbers::";
+//    cin>>a>>b>>c>>d>>e;
+//    max=min=a;
+//    if(b>max)
+//    max=b;
+//    if(c>max)
+//    max=c;
+//   if(d>max)
+//   max=d;
+//  if(e>max)
+//  max=e;
+//   if(b<min)
+//   min=b;
+//  if(c<min)
+//  min=c;
+//  if(d<min)
+//  min=d;
+//  if(e<min)
+//  min=e;
+// cout<<"Maximum number is::"<<max<<endl;
+// cout<<"Minimum number is::"<<min<<endl;
+// return 0;
+// }
+
+
+//Question No::08
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a;
+//     cout<<"Enter a number::";
+//     cin>>a;
+//     if(a%2==0)
+//     cout<<"Entered number is even:"<<a;
+//      else 
+//      cout<<"Entered number is odd:"<<a;
+//     return 0;
+// }
+
+
+//Question No::09
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int y;
+//     cout<<"Enter a leap year::";
+//     cin>>y;
+//     if(y%4==0)
+//     cout<<"Leap year:"<<y;
+//     else
+//     cout<<"Not a Leap year:"<<y;
+//     return 0;
+// }
+
+//Question No::10
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int salary,grade,bonus;
+//     cout<<"Enter your salary::";
+//     cin>>salary;
+//     cout<<"Enter your grade::";
+//     cin>>grade;
+//     if(grade>15)
+//     bonus=salary*50/100;
+//     else 
+//     bonus=salary*25/100;
+//     salary=salary+bonus;
+//     cout<<"Your total salary is Rs::"<<salary;
+//     return 0;
+// }
+
+//Question No::11
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b;
+//     cout<<"Enter first number::";
+//     cin>>a;
+//     cout<<"Enter second number::";
+//     cin>>b;
+//     if(a%b==0)
+//     cout<<"First number is multiple of second number::";
+//      else
+//      cout<<"First number is not a multiple of second number::";
+//     return 0;
+// }
+
+//Question No::12
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int m;
+//     cout<<"Enter your marks::";
+//     cin>>m;
+//     if(m>=90)
+//     cout<<"Your grade is A+";
+//     else if(m>=80)
+//     cout<<"Your grade is A";
+//      else if(m>=70)
+//      cout<<"Your grade is B";
+//     else if(m>=60)
+//     cout<<"Your grade is C";
+//     else 
+//     cout<<"Your grade is F";
+//     return 0;
+// }
+
+//Question No::13
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int unit,bill;
+    
+//     cout<<"Enter units consumed:";
+//     cin>>unit;
+//     if(unit>500)
+//     bill=unit*7;
+//     else if(unit>300)
+//     bill=unit*5;
+// else 
+// bill=unit*2;
+// bill=bill+150;
+// if(bill>2000)
+// bill=bill+(bill*5.0/100.0);
+// cout<<"Total bills::"<<bill;
+// return 0;
+// }
+
+//Question No::14
+// #include<iostream>
+// #include<cmath>
+// using namespace std;
+// int main(){
+//     int radius,choice;
+//     float area,cir;
+//     cout<<"Enter radius::";
+//     cin>>radius;
+//     cout<<"Enter 1 for area and 2 for circumference::";
+//     cin>>choice;
+//     if(choice==1)
+//     {
+//         area=radius*radius*M_PI;
+//         cout<<"Area is::"<<area<<endl;
+//     }
+//     else if(choice==2)
+//     {
+//         cir=2.0*M_PI*radius;
+//         cout<<"Circumference is::"<<cir<<endl;
+//     }
+//     else
+//     cout<<"INvalid Input::";
+//      return 0;
+// }
+
+
+//Question No::15
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b,c;
+//     cout<<"Enter three numbers::";
+//     cin>>a>>b>>c;
+//     if(a<b)
+//     if(a<c)
+//     cout<<a<<" is the smallest number:";
+//    else 
+//    cout<<c<<" is the smallest number:";
+// else 
+//    if(b<c)
+//    cout<<b<<" is the smallest number:";
+ 
+//    return 0;
+// }
+
+//Question No::16
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b,c;
+//     cout<<"Enter three numbers::";
+//     cin>>a>>b>>c;
+//     if(a==b)
+//     if(a==c)
+//     cout<<"All numbers are equal";
+//     else
+//     cout<<"Numbers are different:";
+//      else
+//      cout<<"NUmber are different:";
+//     return 0;
+// }
+
+//Question No::17
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b,c;
+//     cout<<"Enter three numbers::";
+//     cin>>a>>b>>c;
+//     if(a>b&&a>c)
+//     cout<<"Maximum number is:"<<a;
+//      else if(b>a&&b>c)
+//      cout<<"Maximum number is:"<<b;
+// else
+// cout<<"Maximum number is:"<<c;
+// return 0;
+// }
+
+//Question No::18
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     char ch;
+//     cout<<"Enter any character::";
+//     cin>>ch;
+//     if(ch=='A'||ch=='a'||ch=='E'||ch=='e'||ch=='I'||ch=='i'||ch=='O'||ch=='o'||ch=='U'||ch=='u')
+//     cout<<"You enter vowel character";
+// else
+// cout<<"You did not enter vowel character";
+// return 0;
+// }
+
+
+//Question No::19
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     char ch;
+//     cout<<"Enter any character:";
+//     cin>>ch;
+//     if(ch>='A'&&ch<='Z')
+//     cout<<"Your enteredletter "<<ch<<" is a capitcal case:";
+//     else if(ch>='a'&&ch<='z')
+//     cout<<"Your enteredletter "<<ch<<" is a lower case:";
+// else if(ch>='0'&&ch<='9')
+// cout<<"Your entered value "<<ch<<" is a numberic number:";
+// else
+// cout<<"Your entered is a special symbols";
+// return 0;
+// }
+
+
+//Question No::20
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     if(!(n%2==0))
+//     cout<<"odd number.";
+//      else
+//      cout<<"Even number.";
+//     return 0;
+// }
+
+//Question NO::21
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a,b,c;
+//     cout<<"ENter three digits::";
+//     cin>>a>>b>>c;
+//     if((a!=b)&&(b!=c)&&(c!=a))
+//     {
+//         cout<<a<<b<<c<<"\t";
+//         cout<<a<<c<<b<<"\t";
+//         cout<<b<<a<<c<<"\t";
+//         cout<<c<<a<<b<<"\t";
+//         cout<<c<<b<<a<<"\t";
+//     }
+//     else
+//     {
+//         if((a==b)&&(b==a))
+//         cout<<a<<b<<c;
+    
+//     else
+//     {
+//     if(a==b)
+//     {
+//         cout<<a<<b<<c<<"\t";
+//         cout<<a<<c<<b<<"\t";
+//         cout<<c<<b<<a;
+//     }
+//     else{
+//         if(a==c)
+//         {
+//             cout<<a<<c<<b<<"\t";
+//             cout<<a<<b<<c<<"\t";
+//             cout<<b<<a<<c;
+//         }
+//         else
+//         {
+//             cout<<b<<c<<a<<"\t";
+//             cout<<b<<a<<c<<"\t";
+//             cout<<a<<b<<c;
+//         }
+//     }
+// }
+//     }
+
+//     return 0;
+// }
+       
+
+//Question No::22
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout<<"Enter number of weekend::";
+//     cin>>n;
+//     switch(n)
+//     {
+//         case 1:
+//         cout<<"Friday";
+//         break;
+//         case 2:
+//         cout<<"Saturday";
+//         break;
+//         case 3:
+//         cout<<"Sunday";
+//         break;
+//         case 4:
+//         cout<<"Monday";
+//         break;
+//         case 5:
+//         cout<<"Tuesday";
+//         break;
+//         case 6:
+//         cout<<"Wednesday";
+//         break;
+//         case 7:
+//         cout<<"Thursday";
+//         break;
+//         default:
+//         cout<<"Invalid Input:";
+
+//     }
+//     return 0;
+
+// }
+
+//Question No::23
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     char n;
+//     cout<<"Enter an alphabet:";
+//     cin>>n;
+//     switch(n)
+//     {
+//         case 'A':
+//         case 'a':
+//         cout<<"You entered vowel alphabet";
+//         break;
+//         case 'E':
+//         case 'e':
+//         cout<<"You entered vowel alphabet";
+//         break;
+//         case 'I':
+//         case 'i':
+//         cout<<"You entered vowel alphabet";
+//         break;
+//         case 'o':
+//         case 'O':
+//         cout<<"You entered vowel alphabet";
+//         break;
+//         case 'U':
+//         case 'u':
+//         cout<<"You entered vowel alphabet";
+//         break;
+//         default:
+//         cout<<"You entered  is not a vowel.";
+//     }
+//     return 0;
+// }
+
+//Question No::24
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     float a, b;
+//     char o;
+
+//     cout << "Enter the first number: ";
+//     cin >> a;
+
+//     cout << "Enter the second number: ";
+//     cin >> b;
+
+//     cout << "Enter the operator (+, -, *, /): ";
+//     cin >> o;
+
+//     switch (o)
+//     {
+//         case '+':
+//             cout << "Result: " << a + b << endl;
+//             break;
+//         case '-':
+//             cout << "Result: " << a - b << endl;
+//             break;
+//         case '*':
+//             cout << "Result: " << a * b << endl;
+//             break;
+//         case '/':
+//             if (b == 0)
+//                 cout << "Error: Division by zero." << endl;
+//             else
+//                 cout << "Result: " << a / b << endl;
+//             break;
+//         default:
+//             cout << "Invalid operator used." << endl;
+//     }
+
+//     return 0;
+// }
+
+
+//Question No::25
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int choice,month;
+//     double charges;
+//     cout<<"Health club membership menu:"<<endl;
+//     cout<<"1. Standard Adult Membership"<<endl;
+//     cout<<"2. Child Membership"<<endl;
+//     cout<<"3. Senior Citizen Membership"<<endl;
+//     cout<<"4. Quit the program.";
+//     cout<<"Enter your choice:";
+//     cin>>choice;
+//      if(choice>=1&&choice<=3)
+//      {
+//         cout<<"For how many month?";
+//         cin>>month;
+//         switch(choice)
+//         {
+//             case 1:
+//             charges=month*50.0;
+//             case 2:
+//             charges=month*20.0;
+//             case 3:
+//             charges=month*30.0;
+//             cout<<"The total charges is:"<<charges<<endl;
+//         }
+//     }
+//         else if(choice!=4)
+//         {
+//             cout<<"The valid choices are 1 to 4"<<endl;
+//             cout<<"Run the program again and select one of these.";
+//         }
+//         return 0;
+//     }
+
+    
+//Question No::26
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int number,option;
+//     char letter;
+//     cout<<"1.Convert ASCII value to character"<<endl;
+//     cout<<"2.Convert Character to ASCII value"<<endl;
+//     cout<<"Enter your choice";
+//     cin>>option;
+//     switch(option)
+//     {
+//         case 1:
+//         cout<<"enter a number:";
+//         cin>>number;
+//         cout<<"The corrosponding character is:"<<char(number)<<endl;
+//         break;
+//         case 2:
+//         cout<<"Enter a character:";
+//         cin>>letter;
+//         cout<<"ASCII value of the letter is:"<<int(letter)<<endl;
+//         break;
+//         default:
+//         cout<<"Invalid Option!";
+//         break;
+//     }
+//     return 0;
+// }
+
+ //Question NO::27
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout<<"Enter your marks:";
+//     cin>>n;
+//     cout<<"Result is:<<(marks>=?"pass":"fail")
+//     return 0;
+// }
+
+//Question No::28
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n=1;
+//     college:
+//     cout<<n<<":C++"<<endl;
+//     n++;
+//     if(n<=10)
+//     goto college;
+//     cout<<"End program";
+//     return 0;
+// }
+
+//Question No::29
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cout<<"Enter number:";
+//   cin>>n;
+//   (n%3==0? cout<<"Divisible by 3":cout<<"Not a divisible by 3");
+//   return 0;
+// }
+
+
+
+//Prgramming Excercise
+
+//Question No::01
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     char ch;
+//     cout<<"Enter a character:";
+//     cin>>ch;
+//     if(ch>='a'&&ch<='z')
+//     cout<<"Entered character is a lower case.";
+//   else
+//   cout<<"Entered character is not a lower case.";
+// return 0;
+// }
+
+//Queston No::02
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   char status;
+//   cout<<"Enter salesperson status (S for Senior) and (J for Junior):";
+//   cin>>status;
+//   if(status=='S'||status=='s')
+//   cout<<"seniorperson is paid Rs.400 a week.";
+// else if(status=='J'||status=='j')
+// cout<<"junior salesperson is paid Rs.275.";
+// else
+// cout<<"Invalid Input!";
+// return 0;
+// }
+
+
+//Question No::03
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//    int a,b,c;
+//    cout<<"Enter three number:";
+//    cin>>a>>b>>c;
+//    if(a!=0)
+//    {
+//     if(b%a==0&&c%a==0)
+//      cout<<a <<"is a common divisor of "<<b<<"and"<<c<<"."<<endl;
+//     else
+//     cout<<a <<"is not a common divisior of "<<b<<"and"<<c<<"."<<endl;
+//    }
+//    else
+//    cout<<"Value of 'a' should not be zero."<<endl;
+// return 0;
+// }
+
+
+//Question NO::04
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+
+//    char shape;
+//    float side;
+//    float base,height;
+//    cout<<"Enter S for Square and T for Triangle::";
+//    cin>>shape;
+//    if(shape=='s'||shape=='S'){
+// cout<<"Enter the side of square.";
+// cin>>side;
+// cout<<"Area of square:"<<side*side<<endl;}
+// else if(shape=='T'||shape=='t')
+// {
+//     cout<<"Enter the value of base and height:";
+//     cin>>base>>height;
+//     float area=0.5*base*height;
+//     cout<<"Area is="<<area;
+// }
+// else
+// cout<<"Invalid shape!";
+// return 0;
+
+// }
+
+//Question No::05
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int code;
+//   cout<<"Enter code number(1-5):";
+//   cin>>code;
+//   switch(code)
+//   {
+//     case 1:
+//     cout<<"Western Digital";
+//     break;
+//     case 2:
+//     cout<<"3M Corporation";
+//     break;
+//     case 3:
+//     cout<<"Maxell Corporation";
+//     break;
+//     case 4:
+//     cout<<"Sony Corporation";
+//     break;
+//     case 5:
+//     cout<<"Verbatim Corporation";
+//     break;
+//     default:
+//     cout<<"Invalid input!";
+//     break;
+//   }
+//   return 0;
+//}
+
+//Question No::06
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int code;
+//   cout<<"Press 1 to check Balance::"<<endl;
+//   cout<<"Press 2 to Deposit amount::"<<endl;
+//   cout<<"Press 3 to Withdraw amount::"<<endl;
+//   cout<<"Press 4 to Exit the Program::"<<endl;
+//   cout<<"Enter a code(1-4):";
+//   cin>>code;
+//   switch (code)
+//   {
+//     case 1:
+//     cout<<"Check balance:";
+//     break;
+//     case 2:
+//     cout<<"Diposit amount:";
+//     break;
+//     case 3:
+//     cout<<"Withdraw amount:";
+//     break;
+//     case 4:
+//     cout<<"Exit program:";
+//     break;
+//     default:
+//     cout<<"Invalid input!";
+//     break;
+//   }
+//   return 0;
+// }
+
+
+  // #include <iostream>
+  // using namespace std;
+  //  int main()
+  //  {
+  //   int choice;
+  //   int balance=500;
+  //   float amount;
+  //   cout<<"Press 1 to check bank balance::"<<endl;
+  //   cout<<"Press 2 to Deposite amount::"<<endl;
+  //   cout<<"Press 3 to withdraw amount::"<<endl;
+  //   cout<<"Press 4 to Exit machine::"<<endl;
+  //   cout<<"Enter your choice::"<<endl;
+  //   cin>>choice;
+  //   switch(choice)
+  //   {
+  //     case 1:
+  //     cout<<"Your bank balance is::"<<balance<<endl;
+  //     break;
+  //     case 2:
+  //     cout<<"Enter your deposite amount::";
+  //     cin>>amount;
+  //     if(amount>=0){
+  //     balance=balance+amount;
+  //     cout<<"Deposite amount successfully::"<<balance;}
+  //     else 
+  //     cout<<"Unsuccessfully desposting::";
+  //   break;
+  //   case 3:
+  //   if(amount>0&&amount<=balance){
+  //   balance =balance-amount;
+  //   cout<<"Withdraw successfully.";}
+  //   else
+  //   cout<<"Unsucessful withdraw.";
+  // break;
+  // case 4:
+  // cout<<"Exit the machine::";
+  // break;
+  // default:
+  // cout<<"Your choice is wrong::";
+  // break;
+  //   }
+  //   return 0;
+  // }
+
+
+  //Question No::07
+//   #include<iostream>
+//   using namespace std;
+//   int main()
+//   {
+//     char ch;
+//     cout<<"Categories of movies:"<<endl;
+//     cout<<"A for Adventure movies"<<endl;
+//     cout<<"C for Comedy movies"<<endl;
+//     cout<<"F for Family movies"<<endl;
+//     cout<<"H for horrow movies"<<endl;
+//     cout<<"S for Science Fiction movies"<<endl;
+//     cout<<"Enter a option:";
+//      cin>>ch;
+//      if(ch=='A')
+//      cout<<"Adventure movies";
+//     else if(ch=='C')
+//   cout<<"Comedy movies";
+// else if(ch=='F')
+// cout<<"Family moives";
+// else if(ch=='H')
+// cout<<"Horror movies";
+// else if(ch=='S')
+// cout<<"Science Fiction movies";
+// else
+// cout<<"Invalid Input!";
+// return 0;
+//   }
+
+
+//Question No::08
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int year;
+//     cout<<"Etner a year:";
+//     cin>>year;
+//     if((year%4==0&&year%100!=0)||(year%400==0))
+//     cout<<"Leap year:"<<year;
+//   else
+//   cout<<"NOt a leap year:"<<year;
+// return 0;
+// }
+
+
+//Question No::09
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   float temperature;
+//   cout<<"Enter a temperature::";
+//   cin>>temperature;
+//   if(temperature>=35)
+//   cout<<"HOt day";
+// else if(temperature>=25&&temperature<=35)
+// cout<<"Pleasent day.";
+// else
+// cout<<"Cool Day.";
+// return 0;
+// }
+
+//Question No::10
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   float marks;
+//   cout<<"Enter obtrained marks (out of 1100):";
+//   cin>>marks;
+//   float percentage =(marks/1100)*100;
+//   if(percentage>=80)
+//   cout<<"Grade: A+"<<endl;
+// else if(percentage>=70)
+// cout<<"Grade: A"<<endl;
+// else if(percentage>=60)
+// cout<<"Grade: B"<<endl;
+// else if(percentage>=50)
+// cout<<"Grade: C" <<endl;
+// else if(percentage>=40)
+// cout<<"Grade: D"<<endl;
+// else if(percentage>=33)
+// cout<<"Grade: E"<<endl;
+// else if(percentage<=33)
+// cout<<"Grade:F"<<endl;
+// else
+// cout<<"Invalid Input!";
+// return 0;
+
+// }
