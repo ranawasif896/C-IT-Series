@@ -1,0 +1,53 @@
+// #include<iostream>
+// using namespace std;
+// struct wasifaliwasif
+// {
+//     float number;
+// };
+// int main(){
+// wasifaliwasif m;
+// cout<<"Enter the Obtained number :: ";
+// cin>>m.number;
+// cout<<"The percantage of the number is ::"<<m.number*100/1100<<endl;
+// return 0; 
+// }
+
+//Your code is a basic student information retrieval program.
+
+// #include<iostream>
+// using namespace std;
+// struct MuhammadWasif
+// {
+//     int rollnumber;
+// };
+// int main()
+// {
+//     MuhammadWasif w;
+//     cout<<"Enter your roll number::";
+//     cin>>w.rollnumber;
+//     if(w.rollnumber==7)
+//     {
+//     cout<<"Name::Muhammad Wasif"<<endl<<"Father Name::--------"<<endl<<"Contact N0::+9230-00000000"<<endl<<"CNIC::-------------"<<endl<<"Address::-----------"<<endl<<"School Name::-------------"<<endl<<"College Name::------------"<<endl<<"University Name::----------"<<endl<<"Nationality::-----------"<<endl;
+//     }
+//     else if(w.rollnumber==9)
+//     {
+//     cout<<"Name::Sidra"<<endl<<"Father Name::--------"<<endl<<"Contact N0::+9230-00000000"<<endl<<"CNIC::-------------"<<endl<<"Address::-----------"<<endl<<"School Name::-------------"<<endl<<"College Name::------------"<<endl<<"University Name::----------"<<endl<<"Nationality::-----------"<<endl;
+//     }
+//     else if(w.rollnumber==27)
+//     {
+//     cout<<"Name::Alia Riaz"<<endl<<"Father Name::--------"<<endl<<"Contact N0::+9230-00000000"<<endl<<"CNIC::-------------"<<endl<<"Address::-----------"<<endl<<"School Name::-------------"<<endl<<"College Name::------------"<<endl<<"University Name::----------"<<endl<<"Nationality::-----------"<<endl;
+//     }
+//     else if(w.rollnumber==35)
+//     {
+//     cout<<"Name::Masroor Ali"<<endl<<"Father Name::--------"<<endl<<"Contact N0::+9230-00000000"<<endl<<"CNIC::-------------"<<endl<<"Address::-----------"<<endl<<"School Name::-------------"<<endl<<"College Name::------------"<<endl<<"University Name::----------"<<endl<<"Nationality::-----------"<<endl;
+//     }
+//     else if(w.rollnumber==47)
+//     {
+//     cout<<"Name::Hussnain Khan"<<endl<<"Father Name::--------"<<endl<<"Contact N0::+9230-00000000"<<endl<<"CNIC::-------------"<<endl<<"Address::-----------"<<endl<<"School Name::-------------"<<endl<<"College Name::------------"<<endl<<"University Name::----------"<<endl<<"Nationality::-----------"<<endl;
+//     }
+//     else 
+//     {
+//     cout<<"Please put correct input.";
+//     }
+// return 0;
+// }
