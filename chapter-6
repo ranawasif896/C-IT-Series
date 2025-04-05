@@ -1,0 +1,76 @@
+//Question No::01
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n=1;
+//     while(n<=5)
+//     {
+//         cout<<n<<":"<<"PAKISTAN"<<endl;
+//         n++;
+//     }
+//     return 0;
+// }
+
+//Question No::02
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+// int n=1;
+// while(n<=10)
+// {
+//     cout<<n<<endl;
+//     n++;
+// }
+// return 0;
+// } 
+
+//Question No::03
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n=1,sum=0;
+//     while(n<=5)
+//     {
+//         cout<<n<<endl;
+//         sum+=n;
+//         n+=1;
+//     }
+//     cout<<"Sum is="<<sum;
+//     return 0;
+// }
+
+//Question No::04
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n=1;
+//     while(n<=5)
+//     {
+//         cout<<n<<"\t"<<n*n<<endl;
+//         n++;
+//     }
+//     return 0;
+// }
+
+//Question No::05
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,c;
+//     c=1;
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     while(c<=10)
+//     {
+//         cout<<n<<"*"<<c<<"="<<n*c<<endl;
+//         c++;
+//     }
+//     return 0;
+// }
+
