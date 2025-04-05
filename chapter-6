@@ -74,3 +74,73 @@
 //     return 0;
 // }
 
+//Question No::06
+// #include<iostream>
+// using namespace std;
+// int main() {
+//    int x,a,r, sum=0;
+//    cout<<"Enter an integer::";
+//    cin>>x;
+//    a=x;
+//    while(x!=0)
+//    {
+//     r=x%10;
+//     sum+=r;
+//     x=x/10;
+//    }
+//    cout<<"The sum of digit is "<<a<<"="<<sum;
+//    return 0;
+// }
+
+//Question No::07
+// #include<iostream>
+// using namespace std;
+// int main() 
+// {
+//    int f=1,c=1,n;
+//    cout<<"Enter a number::";
+//    cin>>n;
+//    while(c<=n)
+//    {
+//     f=f*c;
+//     c++;
+//    }
+//    cout<<"Factorial of"<<n<<"is"<<f;
+//    return 0;
+// }
+
+//Question No::08
+// #include<iostream>
+// #include<cmath>
+// #include<iomanip>
+// using namespace std;
+// int main() 
+// {
+//   int degree=0;
+//   double radian;
+//   cout<<"Degree to radian"<<endl;
+//   while(degree<=360)
+//   {
+//     radian =degree*M_PI/180;
+//     cout<<degree<<setw(10)<<radian<<endl;
+//     degree+=10;
+//   }
+//   return 0;
+// }
+
+
+//Question No::09
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     float c=2.0;
+//     float r=1.0;
+//     while(c<=100)
+//     {
+//        r=r+1/c;
+//         c+=2;
+//     }
+//     cout<<"Result is="<<r;
+//     return 0;
+// }
