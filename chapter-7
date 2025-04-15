@@ -226,3 +226,29 @@ for(int i=0; i<size; i++){
 
 return 0;
 }
+//Question NO:09
+#include<iostream>
+using namespace std;
+int main()
+{
+
+int c,n,p,arr[5],count=0;
+for(n=0;n<5;n++)
+{
+    cout<<"Enter a number::";
+    cin>>arr[n];
+}
+for(n=0;n<5;n++)
+{
+    p=1;
+    for(c=2;c<=arr[n]/2;c++)
+    if(arr[n]%c==0)
+    {
+        p=0;
+        break;
+    }
+    if(p==1)
+    count++;
+}
+cout<<"Total prime number in the array::"<<count;
+return 0;}
