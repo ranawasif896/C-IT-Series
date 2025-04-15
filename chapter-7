@@ -3,8 +3,6 @@
 #include<algorithm>
 using namespace std;
 int main(){
-    Program 1
-   
     int arr[5];
     cout<<"Enter the value in array :: > ";
     cin>>arr[0];
@@ -22,7 +20,8 @@ int main(){
     cout<<"The value is  : : > >  "<<arr[2]<<endl;
     cout<<"The value is  : : > >  "<<arr[3]<<endl;
     cout<<"The value is  : : > >  "<<arr[4]<<endl;
-    return 0;}
+    return 0;
+}
     
 //Question No::01
 //That gets five inputs from the user in an array and then sorts this array in ascending order.
