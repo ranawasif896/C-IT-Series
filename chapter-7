@@ -1,4 +1,6 @@
- //Question No::00
+
+
+//Question No::00
 #include<iostream>
 #include<algorithm>
 using namespace std;
