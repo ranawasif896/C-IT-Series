@@ -435,9 +435,7 @@
 
 
 
-
 // Programming Exercise
-
 // Question No::01
 // #include <iostream>
 // using namespace std;
@@ -622,6 +620,27 @@
 //     return 0;
 // }
 
+Another way to display output as follow
+1
+2
+3
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string n;
+cout<<"Enter the  digits ::> ";
+cin>>n;
+cout<<n[0]<<endl;
+cout<<n[1]<<endl;
+cout<<n[2]<<endl;
+cout<<n[3]<<endl;
+cout<<n[4]<<endl;
+return 0;
+}
+
+
 // Question No::12
 // #include <iostream>
 // using namespace std;
@@ -701,6 +720,7 @@
 //     cout << "Weight in kilograms = " << kilograms << " kg" << endl;
 //     return 0;
 // }
+
 // Question No::18
 // #include <iostream>
 // using namespace std;
