@@ -535,7 +535,7 @@
 
 // Question No::25
 // #include<iostream>
-// #include<math.hs>
+// #include<math.h>
 // using namespace std;
 // int main()
 // {
