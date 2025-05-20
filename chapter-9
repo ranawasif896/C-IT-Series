@@ -16,7 +16,7 @@
 
  //Function 
  void fun(){
-     cout<<"Masroor Ali ";
+     cout<<"Wasif Ali Wasif";
  }
  int main(){
      fun();
